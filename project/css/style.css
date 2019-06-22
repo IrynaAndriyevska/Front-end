@@ -1,0 +1,149 @@
+
+.title {
+	display: inline-block;
+	margin-right: 40vmin;
+	margin-left: 60vmin;
+	font-family: "Broadway";
+	font-size: 30px;
+}
+
+.search {
+	display: inline-block;
+	align-items: right;
+	background-color: #c4dcdc;
+	width: 450px;
+	height: 450px;
+	border: none;
+	color: #c4dcdc;
+}
+
+.search img {
+	align-items: right;
+	margin-left: 90%;
+	margin-top: 5%;
+	margin-right: 5%;
+}
+
+.topmenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+.menubar {
+  float: left;
+}
+
+.menubar a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Corbel";
+  font-size: 12px;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+.menubar a:hover {
+  background-color: #cfcfcf;
+}
+
+.social {
+	position: fixed;
+	list-style-type: none;
+	margin-top: 80px;
+	padding: 8px;
+
+}
+
+.icons {
+  float: down;
+  padding: 8px;
+}
+
+
+#banner {
+    width:100%;
+    margin-top:50px;
+
+}
+
+.slides_container {
+    width:100%;
+    height:500px;
+    text-align: center;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    top: 0px;
+    margin-top: 180px;
+}
+
+.active {
+	margin: 0px auto; 
+    width:1100px;
+    height:500px;
+ 	position: relative;
+}
+.text {
+	position: absolute;
+	bottom: 90px;
+	left: -20px;
+	padding-left: 10%;
+	font-family: "Corbel";
+	color: #1a1a1c;
+	font-size: 80px;
+	text-align: left;
+}
+.text2 {
+	position: absolute;
+	bottom: 50px;
+	left: -20px;
+	padding-left: 10%;
+	font-family: "Corbel";
+	color: #686464;
+	font-size: 18px;
+}
+.view_profile {
+	background-color: #b5d3d3;
+	color: #ffffff;
+	text-align: top;
+	padding: 35px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.play {
+	background-color: white;
+	padding: 25px;
+}
+.buttons {
+	bottom: -80px;
+	left: -150px;
+	position: absolute;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;	
+}
+.form {
+	background-color: #c8ddde;
+}
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: none;
+  float: right;
+  width: 80%;
+  background: #c8ddde;
+}
